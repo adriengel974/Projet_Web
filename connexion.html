@@ -1,11 +1,43 @@
 <html>
 	<head>
-		<title>Connexion</title>
+		<title>Epicerie en ligne</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<style type="text/css">  th {  text-align:left; }  </style>
+		<link rel="stylesheet" href="Style.css">
 	</head>
 	
 	<body>
+
+        <nav>
+
+            <h1 class="nav"> <img class="navIm"> La Sublime Porte </h1>
+
+            <div class="Centre">
+               <li class="Acc">
+                  <a href="Accueil.html">Accueil</a>
+               </li>
+
+               <li class="Par">
+                   <a href="Categories.html">Categories</a> 
+                </li>
+
+               <li class="Comp">
+                   <a href="Panier.html">Mon panier</a>
+              </li>
+              
+               <li class="Loi">
+                  <a href="connexion.html">Mon compte</a>
+             </li>
+
+              <li class="Cont">  
+                 <a href="Contact.html">Contact</a>
+               </li>
+            </div>
+        
+        </nav>
+
+	<section>
+		<div class="Droit">
 
 		<h3>Connexion :</h3>
 		<form action="recherche.php" method="POST" >
@@ -15,8 +47,10 @@
 		</table>
 		<br><input type="submit" name="personne" value="Connexion">
 		</form>
-			<h3>Inscription</h3>
-			
+		</div>
+
+		<div class="Gauche">
+		<h3>Inscription</h3>
 		<form action="nouveau.php" method="POST" >
 
 		<table>
@@ -30,9 +64,15 @@
 			<tr><th>Login : </th><td><input type="text" name="login"></td></tr>
 			<tr><th>Mot de passe : </th><td><input type="password" name="pswd"></td></tr>
 		</table>
-
 		<br><input type="submit" name="personne" value="Nouveau">
-
 		</form>
+		
+		</div>
+	</section>
+
+	<footer>
+		<h3 style="color: white;">Site web cree par Engel Adrien et Dabadie Emanuel </h3>
+	</footer>
+
 	</body>
 </html>

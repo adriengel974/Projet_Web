@@ -32,14 +32,14 @@ CREATE TABLE IF NOT EXISTS `stock` (
   `Id` int NOT NULL,
   `Nom` varchar(30) NOT NULL,
   `Prix` int NOT NULL,
-  `Cantiter` int NOT NULL
+  `Quantité` int NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `stock`
 --
 
-INSERT INTO `stock` (`Id`, `Nom`, `Prix`, `Cantiter`) VALUES
+INSERT INTO `stock` (`Id`, `Nom`, `Prix`, `Quantité`) VALUES
 (1, 'Safran', 40, 43),
 (2, 'Boeuf de Kobé', 125, 16),
 (3, 'Piment d\'espelette', 7, 64),
