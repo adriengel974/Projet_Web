@@ -62,7 +62,9 @@ img.navIm {
 h2 {
     text-align: center;
 }
-
+h3.exemples {
+    text-align:left;
+}
 /*Toute les listes*/
 .Acc:hover {
     border-top: 3px solid rgb(255, 255, 255);
@@ -116,6 +118,9 @@ div.Gauche{
     vertical-align: middle;
 }
 
+img{
+    max-width: 40%;
+}
 
 
 
