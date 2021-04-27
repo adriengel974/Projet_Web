@@ -1,0 +1,148 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding-top: 18px;
+    height:100px;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: green;
+    border: 3px solid darkgreen;
+    padding-top: 30px;
+}
+
+nav{
+    width:100%;
+    background-color: green;
+    padding-top: 1px;
+}
+
+
+/* Paragraphe, style, alignement etc… */
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul {
+    margin:0px;
+    padding:0px ;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+
+}
+
+h1.nav {
+    color: white;
+}
+
+img.navIm {
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+}
+h3.exemples {
+    text-align:left;
+}
+/*Toute les listes*/
+.Acc:hover {
+    border-top: 3px solid rgb(255, 255, 255);
+    background-color: rgba(165, 165, 165, 0.548) ;
+}
+
+.Par:hover {
+    border-top: 3px solid rgb(255, 255, 255) ;
+    background-color: rgba(165, 165, 165, 0.548)  ;
+}
+
+.Comp:hover {
+    border-top: 3px solid rgb(255, 255, 255);
+    background-color: rgba(165, 165, 165, 0.548)  ;
+}
+
+.Loi:hover {
+    border-top: 3px solid white;
+    background-color: rgba(165, 165, 165, 0.548)  ;
+}
+
+.Cont:hover {
+    border-top: 3px solid white;
+    background-color: rgba(165, 165, 165, 0.548)  ;
+}
+
+/*Tout les div*/
+
+div.Centre{
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+div.Globale {
+    position: relative;
+    display:inline;
+    text-align: center;
+    padding-left: 250px;
+}
+
+div.Droit{
+    position:relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.Gauche{
+    position:relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img{
+    max-width: 40%;
+}
+
+
+
+
+/* Autre media */
+@media screen and (max-width :780px){ 
+    
+    header{
+    height :50px; 
+}
+     
+    h1{
+    Font-size :28px ;
+    Margin : 20px 0 px 0px 0px ; 
+}
+
+    nav li a{
+    font-size :12px ;
+    padding :10 px ; 
+}
+
+    nav li:hover a{
+    padding : 5px 10 px 10 px 10 px ;
+    } 
+}
