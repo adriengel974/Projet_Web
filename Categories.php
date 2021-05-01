@@ -1,40 +1,4 @@
-<!DOCTYPE html> 
-
-<html >
-    <head > 
-        <link rel="stylesheet" href="Style.css">
-        <title>Epicerie en ligne</title>
-        <meta name="PROJET WEB">
-    </head > 
-    
-    <body>
-        <nav>
-
-            <h1 class="nav"> <img class="navIm"> La Sublime Porte </h1>
-
-            <div class="Centre">
-               <li class="Acc">
-                  <a href="Accueil.html">Accueil</a>
-               </li>
-
-               <li class="Par">
-                   <a href="Categories.html">Catégories</a> 
-                </li>
-
-               <li class="Comp">
-                   <a href="Panier.html">Mon Panier</a>
-              </li>
-              
-               <li class="Loi">
-                  <a href="connexion.html">Mon compte</a>
-             </li>
-
-              <li class="Cont">  
-                 <a href="Contact.html">Contact</a>
-               </li>
-            </div>
-        
-        </nav>
+<?php require 'nav.php'; ?>
 
         <section class="Présentation">
 
@@ -46,7 +10,7 @@
                 
                 <div>
                     
-                    <a href="catégories/epices/list_epices.html">
+                    <a href="catégories/epices/list_epices.php">
                         <h2>Épices</h2>
                         <img src="epices.jpg">
                     </a>
@@ -87,10 +51,4 @@
 
         </section>
 
-        <footer>
-            <h3 style="color: white;">Site web crée par Engel Adrien et Dabadie Emanuel</h3>
-        </footer>
-
-   </body >
-
-</html >
+<?php require 'footer.php'; ?>

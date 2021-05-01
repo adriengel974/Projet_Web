@@ -26,7 +26,7 @@
 			}
 
 			if($login_trouve == true)  
-				echo "Ce login: $login existe dej� : Pour revenir � l'inscription <a href=\"index.html\">Cliquez ici<\a>";
+				echo "Ce login: $login existe dejà : Pour revenir à l'inscription <a href=\"connexion.php\">Cliquez ici<\a>";
 			else   { 
 				echo "Nous sommes le ",$jour, " et il est ",$heure,"<br> Bonjour $etatcivil $nom ",'<br>';
 				$chaine = "\r\n$login;$pswd;$etatcivil;$prenom;$nom;$tel;$jour;$heure";

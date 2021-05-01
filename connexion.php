@@ -14,23 +14,23 @@
 
             <div class="Centre">
                <li class="Acc">
-                  <a href="Accueil.html">Accueil</a>
+                  <a href="Accueil.php">Accueil</a>
                </li>
 
                <li class="Par">
-                   <a href="Categories.html">Categories</a> 
+                   <a href="Categories.php">Categories</a> 
                 </li>
 
                <li class="Comp">
-                   <a href="Panier.html">Mon panier</a>
+                   <a href="Panier.php">Mon panier</a>
               </li>
               
                <li class="Loi">
-                  <a href="connexion.html">Mon compte</a>
+                  <a href="connexion.php">Mon compte</a>
              </li>
 
               <li class="Cont">  
-                 <a href="Contact.html">Contact</a>
+                 <a href="Contact.php">Contact</a>
                </li>
             </div>
         
@@ -70,9 +70,4 @@
 		</div>
 	</section>
 
-	<footer>
-		<h3 style="color: white;">Site web cree par Engel Adrien et Dabadie Emanuel </h3>
-	</footer>
-
-	</body>
-</html>
+<?php require 'footer.php'; ?>
